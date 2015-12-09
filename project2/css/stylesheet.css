@@ -62,17 +62,17 @@ a:visited {
 	text-decoration: none;
 }
 
-ul#nav {
+nav ul {
 	list-style-type:none;
 	margin: 0;
 	padding: 0;
 }
 
-ul#nav li {
+nav li {
 	display:inline;
 }
 
-ul#nav li a {
+nav li a {
 	display:inline-block;
     padding:10px;
 }

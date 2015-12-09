@@ -24,6 +24,10 @@ p {
 h1, h2, h3, h4, h5, h6, h7 {
 	font-family: 'Lato', sans-serif;
 }
+figcaption {
+	font-family: 'Open Sans';
+	font-size:12px;
+}
 
 /** Nav & Header **/
 h1 {
@@ -93,3 +97,12 @@ ol {
 	list-style-type:decimal;
 	font-family: 'Open Sans';
 	}
+	
+/** Images **/
+figure {
+	height: 300px;
+	width: 300px;
+	display:inline-block;
+	margin:25px;
+	vertical-align:top;
+}

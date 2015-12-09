@@ -7,12 +7,12 @@ html {
 	height: 100%;
 }
 body {
-	width: 800px;
+	width: 75%;
 	margin: auto;
 	background-color:#FFFFFF;
 	height: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /* Font style */
@@ -66,7 +66,6 @@ ul#nav {
 	list-style-type:none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 }
 
 ul#nav li {
@@ -82,7 +81,7 @@ ul#nav li a {
 .note {
 	border: 1px solid;
 	margin: 10px 0px;
-	padding:15px 10px 15px 50px;
+	padding:5px 5px 5px 50px;
 	background-repeat: no-repeat;
 	background-position: 10px center;
 	color: #00529B;

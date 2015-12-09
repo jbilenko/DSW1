@@ -2,17 +2,18 @@
 /* Project 2 CSS Document */
 
 /* Main Style */
-html {
-	background-color:#C5E2FF;
-	height: 100%;
-}
+
 body {
-	width: 75%;
-	margin: auto;
-	background-color:#FFFFFF;
-	height: auto;
-	padding-left: 20px;
-	padding-right: 20px;
+	background-color:#C5E2FF;
+	margin:0px;
+	padding:0px;
+}
+
+#container {
+	width:75%;
+	margin:0px auto;
+	background-color:#fff;
+	padding: 5px 15px;
 }
 
 /* Font style */

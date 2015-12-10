@@ -104,8 +104,6 @@ ol {
 figure {
 	height: 300px;
 	width: 300px;
-	display:inline-block;
-	margin:25px;
 	vertical-align:top;
 }
 
@@ -124,10 +122,10 @@ figure {
 
 #section75 {
 	float: left;
-	width: 75%;
+	width: 66%;
 }
 
 #section25 {
 	float: left;
-	width: 25%;
+	width: 33%;
 }

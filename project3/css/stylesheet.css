@@ -104,7 +104,31 @@ ol {
 figure {
 	height: 300px;
 	width: 300px;
-	display:inline-block;
-	margin:25px;
 	vertical-align:top;
+}
+
+/** Columns **/
+#content {
+	float: left;
+	width: 75%;
+	margin: 0px 10px;
+}
+
+#sidebar {
+	float: left;
+	width: 20%;
+	margin: 0px 30px;
+}
+
+#section75 {
+	float: left;
+	width: 66%;
+}
+
+#section25 {
+	float: left;
+	width: 33%;
+}
+#mystory {
+	clear: both;
 }

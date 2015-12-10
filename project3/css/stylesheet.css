@@ -121,3 +121,13 @@ figure {
 	width: 20%;
 	margin: 0px 30px;
 }
+
+#section75 {
+	float: left;
+	width: 75%;
+}
+
+#section25 {
+	float: left;
+	width: 25%;
+}

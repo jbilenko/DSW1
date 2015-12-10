@@ -9,6 +9,10 @@ body {
 	padding:0px;
 }
 
+.clearboth {
+	clear:both;
+}
+
 #container {
 	width:75%;
 	margin:0px auto;
@@ -23,6 +27,10 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
+section ol, p {
+	font-size: 14px
+}
+
 h1, h2, h3, h4, h5, h6, h7 {
 	font-family: 'Lato', sans-serif;
 }
@@ -32,6 +40,10 @@ figcaption {
 }
 
 /** Nav & Header **/
+header {
+	margin-bottom:20px;
+}
+
 h1 {
 	text-align:center;
 }
@@ -102,22 +114,33 @@ ol {
 	
 /** Images **/
 figure {
-	height: 300px;
-	width: 300px;
+	width: 100%;
 	vertical-align:top;
+	margin:0px;
+	padding:0px;
+	margin-bottom:30px;
+}
+
+figure img {
+	width:100%;
+	height:auto;
 }
 
 /** Columns **/
 #content {
 	float: left;
-	width: 75%;
-	margin: 0px 10px;
+	width: 70%;
+	padding-left:10px;
 }
 
 #sidebar {
-	float: left;
-	width: 20%;
-	margin: 0px 30px;
+    float: right;
+    width: 25%;
+    padding-right: 10px;
+    border: 1px solid #e5e600;
+    background-color: #ffff66;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #section75 {

@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* Project 2 CSS Document */
+
+/* Main Style */
+
+body {
+	background-color:#C5E2FF;
+	margin:0px;
+	padding:0px;
+}
+
+.clearboth {
+	clear:both;
+}
+
+#container {
+	width:75%;
+	margin:0px auto;
+	background-color:#fff;
+	padding: 5px 15px;
+	border-radius: 15px;	
+	box-shadow: 0 0 15px 5px #7EB6FF;
+}
+
+/* Font style */
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+section p, td {
+	font-size: 14px
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+	font-family: 'Lato', sans-serif;
+}
+figcaption {
+	font-family: 'Open Sans';
+	font-size:12px;
+}
+
+/** Nav & Header **/
+header {
+	margin-bottom:20px;
+}
+
+h1 {
+	text-align:center;
+}
+
+nav {
+	border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+a {
+	font-family: 'Open Sans';
+	text-decoration: none;
+}
+
+a:link {
+	color:#0080E8;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#00B4D9;
+	text-decotration: none;
+}
+
+a:active {
+	color: #6900EF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #6100EE;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display:inline;
+}
+
+nav li a {
+	display:inline-block;
+    padding:10px;
+}
+
+/** Notes **/
+.note {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding: 5px 40px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	color: #00529B;
+	background-color: #BDE5F8;
+	font-size: 13px;
+}
+/** Lists **/
+ol {
+	list-style-type:decimal;
+	font-family: 'Open Sans';
+	}
+	
+/** Images **/
+figure {
+	width: 100%;
+	vertical-align:top;
+	margin:0px;
+	padding:0px;
+	margin-bottom:30px;
+}
+
+figure img {
+	width:100%;
+	height:auto;
+}
+
+/** Columns **/
+#content {
+	float: left;
+	width: 70%;
+	padding-left:10px;
+}
+
+#sidebar {
+    float: right;
+    width: 25%;
+    padding-right: 10px;
+    border: 1px solid #e5e600;
+    background-color: #ffff66;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#section75 {
+	float: left;
+	width: 66%;
+}
+
+#section25 {
+	float: left;
+	width: 33%;
+}
+#mystory {
+	clear: both;
+}
+
+/** Table **/
+table {
+	width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+		font-family: 'Lato', sans-serif;
+}
+td {
+		font-family: 'Open Sans', sans-serif;
+		
+}
+th, td {
+    padding: 5px;
+}

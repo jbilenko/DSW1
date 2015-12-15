@@ -183,3 +183,25 @@ th, td {
 tr:hover {
 	 background-color: #f5f5f5
 }
+/** form **/
+.contactform ul {
+    width:500px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px auto;
+    padding:0px;
+}
+.contactform li{
+    padding:12px; 
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+.contactform li:first-child {
+	border-top:1px solid #777;
+}
+.contactform li:last-child {
+    border-bottom:1px solid #777;
+}
+#contact h2 {
+	text-align: center;
+}

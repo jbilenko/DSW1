@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
     	<link href="css/stylesheet.css" rel="stylesheet" />
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans|Lato:700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans%7CLato:700' rel='stylesheet' type='text/css'>
 		<meta charset="UTF-8">
 		<title>My 2015 GTI</title>
 	</head>
@@ -32,10 +32,10 @@
                         <h3>My <abbr title="Modifications">Mods</abbr></h3>
  						<table style="overflow-x:auto;">
                         	<tr>
-                            	<th>Part</th>
-                                <th>Date Installed</th>
-                                <th>Horspower</th>
-                                <th>Gain</th>
+                            	<th scope="col">Part</th>
+                                <th scope="col">Date Installed</th>
+                                <th scope="col">Horspower</th>
+                                <th scope="col">Gain</th>
                             </tr>
                             <tr>
                             	<td>Got Volkswagen</td>
@@ -123,27 +123,28 @@
             <div class="clearboth"></div>
             <div id="contact">
             	<h2>Contact Form</h2>
-                <form class="contactform" action="" method="post" name="contactform">
+                <form class="contactform" action="index.html" method="post" name="contactform">
                     <ul>
                     	<li>
                         	<label for="firstname">First Name:</label>
-                            <input type="text" name="firstname" placeholder="John" />
+                            <input type="text" name="firstname" id="firstname" placeholder="John" required />
                         </li>
                         <li>
                         	<label for="lastname">Last Name:</label>
-                            <input type="text" name="lastname" placeholder="Doe" />
+                            <input type="text" name="lastname" id="lastname" placeholder="Doe" required />
                         </li>
                         <li>
                             <label for="email">Email:</label>
-                            <input type="text" name="email" placeholder="johndoe@website.com"/>
+                            <input type="email" name="email" id="email" placeholder="johndoe@website.com" required />
                         </li>
                         <li>
                             <label for="message">Message:</label>
-                            <textarea name="message" cols="40" rows="6" placeholder="Message here" ></textarea>
+                            <textarea name="message" id="message" cols="40" rows="6" placeholder="Message here" required ></textarea>
                         </li>
+                        
                         <li>
                         	<label for="gender">Gender:</label>
-                       		<select name="gender">
+                       		<select name="gender" id="gender">
                               <option value="male">Male</option>
                               <option value="female">Female</option>
                               <option value="idk">I Don't Know</option>
@@ -151,11 +152,19 @@
                             </select>
                         </li>
                         <li>
+                        	 <label for="newsletter">Sign Up For News Letter: </label>
+                           	 <input type="checkbox" id="newsletter" class="checkbox">
+                        </li>
+                        
+                        <li>
                         	<button class="submit" type="submit">Send</button>
                         </li>
                     </ul>
                 </form>
             </div>
+            <footer>
+            	&copy; 2015 Josh Bilenko. All rights reserved.
+            </footer>
          </div>
 	</body>
 </html>
